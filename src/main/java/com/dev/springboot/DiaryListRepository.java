@@ -7,4 +7,5 @@ import java.util.List;
 public interface DiaryListRepository extends JpaRepository<Diary, Long> {
 
     List<Diary> findByUser(String user);
+    //브런치 푸쉬용
 }
